@@ -52,7 +52,7 @@ replace FYI = 0 if UNINS == 1
 label define FYI 0 "UninsuredAllYear" 1 "MedicareAllYear" 2 "MedicaidAllYear" 3 "Medicaid+MedicareAllYear" 4 "PrivateInsuranceAllYear" 5 "AllOther"
 label values FYI FYI
 
-keep if REGION31 == 1
+keep if REGION31 == 4
 
 
 save "C:\Users\bz22\Desktop\SARS2NYCData\MEPS2014-2017Age50+WestOnly.dta"
