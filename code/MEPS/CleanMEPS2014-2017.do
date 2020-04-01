@@ -1,4 +1,4 @@
- use "D:\Data\SARS2NYCData\MEPS2014-2017Age50+.dta"
+ use "C:\Users\bz22\Desktop\SARS2NYCData\MEPS2014-2017Age50+WestOnly.dta"
 
  keep if REGION31 == 4
 
